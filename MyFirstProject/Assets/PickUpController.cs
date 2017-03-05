@@ -12,6 +12,6 @@ public class PickUpController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.Rotate(new Vector3(0, 0, RotateSpeed*Time.deltaTime));
-	}
+        this.transform.Rotate(new Vector3(0, 0, RotateSpeed * Time.deltaTime)); // 讓金幣固定以Z軸旋轉
+    }
 }

@@ -11,6 +11,6 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.eulerAngles = Vector3.zero;
-	}
+        this.transform.eulerAngles = Vector3.zero; // 控制transform的旋轉角度，三軸都設定為0
+    }
 }
